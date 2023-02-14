@@ -1,9 +1,18 @@
 import React from 'react'
+import Alert from 'react-bootstrap/Alert'
+
 
 const cartWidget = () => {
   return (
     <>
-    <img src='public\carrito-de-compras.png'>0</img>
+       {[
+            'info',
+          
+          ].map((variant) => (
+            <Alert key={variant} variant={variant}>
+              Aún no puedes comprar!
+            </Alert>
+          ))}
     </>
   )
 }

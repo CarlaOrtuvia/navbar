@@ -6,7 +6,7 @@ const tarot = () => {
 
         <>
           {[
-            'primary',
+            'secondary',
           
           ].map((variant) => (
             <Alert key={variant} variant={variant}>

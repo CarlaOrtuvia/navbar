@@ -6,7 +6,7 @@ const flores = () => {
 
         <>
           {[
-            'primary',
+            'success',
           
           ].map((variant) => (
             <Alert key={variant} variant={variant}>

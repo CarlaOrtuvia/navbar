@@ -25,7 +25,7 @@ function NavbarEjemplo() {
               </NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/tarot'>Tarot</NavDropdown.Item>
               <NavDropdown.Item as={Link} to='/biodeco'>Bioneurodecodificación</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to='/'>
+              <NavDropdown.Item as={Link} to='/cartWidget'>
                 <img src='.\carrito-de-compras.png' width='40'/>0</NavDropdown.Item>
             </NavDropdown>
           </Nav>
